@@ -1,0 +1,13 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+/* 
+.table--showColors tr:nth-child(odd) {
+  background: #9ccff1;
+}
+
+.table--showColors tr:nth-child(even) {
+  background: #c6dbe9;
+} */
