@@ -1,7 +1,7 @@
 ## Deliverables
 
 ## Folder Structure BACKEND
-
+```
 prisma/                          # Prisma schema and migrations
 src/
 ├── app/                         # app modules (user, auth)
@@ -32,8 +32,9 @@ src/
 ├── .env.local             # Environment variables
 ├── .gitignore
 ├── package.json
-
+```
 ## Folder Structure FRONTEND
+```
 src/
 ├── assets/                # Static assets (images, fonts)
 │   ├── fonts/
@@ -65,7 +66,7 @@ src/
 ├── .env.local             # Environment variables
 ├── .gitignore
 ├── package.json
-
+```
 
 
 ## Backend 
