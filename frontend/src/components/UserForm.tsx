@@ -94,6 +94,10 @@ export default function UserForm({ editUserId }: { editUserId?: number }) {
     if (editUserId && formData.password.length > 1) {
       formDataToSend.append("password", formData.password);
     }
+    if (!editUserId) {
+      formDataToSend.append("password", formData.password);
+    }
+
     formDataToSend.append("phoneNumber", formData.phoneNumber || "");
     formDataToSend.append("role", formData.role);
     formDataToSend.append("status", formData.status);
