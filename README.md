@@ -1,35 +1,34 @@
-## Deliverables
 
 ## Folder Structure BACKEND
 ```
-prisma/                          # Prisma schema and migrations
+prisma/                                # Prisma schema and migrations
 src/
-├── app/                         # app modules (user, auth)
+├── app/                               # app modules (user, auth)
 │   ├── auth/
 │   ├── user/
 │
-├── config/                      # custom utilities
+├── config/                            # custom utilities
 │   ├── bcryptjs.ts/        
 │   ├── jwt.ts/         
 │
-├── database/                   # configure prisma ORM
-│   ├── index.ts/           # Utility functions
+├── database/                          # configure prisma ORM
+│   ├── index.ts/                      # Utility functions
 │
 ├── middleware/                   
-│   ├── auth.middleware.ts           # validate routes
+│   ├── auth.middleware.ts             # validate routes
 │   ├── multer.middleware.ts           # upload images
 │
 ├── public/
-│   ├── uploads/              # images
+│   ├── uploads/                       # images
 |
 ├── utils/                
-│   ├── custom-error.ts          # handle common errors
+│   ├── custom-error.ts                # handle common errors
 │
 ├── app.ts            
 ├── routes.ts             
 ├── server.ts            
              
-├── .env.local             # Environment variables
+├── .env.local                         # Environment variables
 ├── .gitignore
 ├── package.json
 ```
@@ -49,7 +48,7 @@ src/
 │   ├── store/             # State management (Zustand)
 │
 ├── schemas/                   
-│   ├── userSchema.ts           # validate user data
+│   ├── userSchema.ts      # validate user data
 │
 ├── pages/                 # Page components (LoginPage, DashboardPage)
 │   ├── auth/              # Auth pages
@@ -61,8 +60,8 @@ src/
 │   ├── PublicRoutes.tsx
 │
 ├── services/
-│   ├── user.ts          # user API services
-│   ├── auth.ts          # auth API services
+│   ├── user.ts            # user API services
+│   ├── auth.ts            # auth API services
 ├── .env.local             # Environment variables
 ├── .gitignore
 ├── package.json
@@ -128,10 +127,6 @@ src/
 - **cors**:
 - **JWT (JSON Web Tokens)**:
 
-### Base de Datos
-- **MySQL**: Sistema de gestión de bases de datos relacionales utilizado para almacenar información.
-
-
-## CHALLENGES
-
+### Database
+- **PostgresSQL**:
 
